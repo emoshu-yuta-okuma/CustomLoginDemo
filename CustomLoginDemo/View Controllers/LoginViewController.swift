@@ -49,7 +49,7 @@ class LoginViewController: UIViewController {
         if Utilities.isPasswordValid(cleanedPassword) == false {
             
             // Password isn't secure enough（パスワードが安全でない場合）
-            return "Please maek sure your password is at least 8 characters, contains a special character and a number"
+            return "Please make sure your password is at least 8 characters, contains a special character and a number"
         }
         
         return nil
